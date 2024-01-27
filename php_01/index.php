@@ -7,7 +7,7 @@
 </head>
 <body>
     <?php 
-    echo "<h2 style='color: green'>Allah Mohan</h2>"
+        echo "<h2 style='color: green'>Allah Mohan</h2>"
     ?> 
     
 </body>
