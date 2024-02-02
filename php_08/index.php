@@ -8,6 +8,8 @@
     3.. strrev() > to reverse character or word
     4.. strpos($parameter,$parameter) > kono akta word ar index janar jonno ata use kore. jake khoje se second parameter bosbe;
     5..str_replace("", "", ""); ata boji nai
+
+    string to integer
 2. integer; (one digit, no decimal, negative ba positive)
     1.. PHP_INT_MAX()
     2.. PHP_INT_MIN()
@@ -16,6 +18,11 @@
     5.. is_integer() alias is_int()
     6.. is_log() is_int()
 3. float (double);
+    1.. float to integer (
+        $price = 520036.58;
+        $prc = (int)$price;
+        echo $prc;
+    )
 4. boolean; ( true > ( value 1 ) ot false > ( value 0 ) to use conditional function )
 5. array;
 6. object;
@@ -32,7 +39,7 @@ var_dump() is a building function to return data type and value
 // var_dump($arr_type);
 
 
-$user = "Muhammad";
-$user_name = "osman zakaria is Muhammad a Web Developer  and Digital  Marketer";
-
-echo str_replace($user_name,$user);
+$string = "520036.58";
+var_dump($string);
+$prc = (int)$string;
+var_dump($prc);

@@ -1,0 +1,1 @@
+PHP Casting max min abs round rand
