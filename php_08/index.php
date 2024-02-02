@@ -9,6 +9,12 @@
     4.. strpos($parameter,$parameter) > kono akta word ar index janar jonno ata use kore. jake khoje se second parameter bosbe;
     5..str_replace("", "", ""); ata boji nai
 2. integer; (one digit, no decimal, negative ba positive)
+    1.. PHP_INT_MAX()
+    2.. PHP_INT_MIN()
+    3.. PHP_INT_SIZE()
+    4.. is_int()
+    5.. is_integer() alias is_int()
+    6.. is_log() is_int()
 3. float (double);
 4. boolean; ( true > ( value 1 ) ot false > ( value 0 ) to use conditional function )
 5. array;
